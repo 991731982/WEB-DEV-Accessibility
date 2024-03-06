@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html class="no-js" lang="fr" dir="ltr">
+<head>
+<meta charset="utf-8">
+<!-- Boîte à outils de l'expérience Web (BOEW) / Web Experience Toolkit (WET)
+    wet-boew.github.io/wet-boew/Licence-fr.html / wet-boew.github.io/wet-boew/License-en.html -->
+<title>Directives d'accessibilité pour les sites Web canadiens</title>
+<meta content="width=device-width,initial-scale=1" name="viewport">
+<meta name="description" content="v6.1 - notes de version - Historique des versions - Thème Canada.ca (GCWeb)">
+
+<link href="../themes-dist-14.4.0-gcweb/GCWeb/assets/favicon.ico" rel="icon" type="image/x-icon">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+<link rel="stylesheet" href="../themes-dist-14.4.0-gcweb/GCWeb/css/theme.min.css">
+<noscript><link rel="stylesheet" href="../themes-dist-14.4.0-gcweb/wet-boew/css/noscript.min.css" /></noscript>
+</head>
+
+<body vocab="http://schema.org/" resource="#wb-webpage" typeof="WebPage">
+<nav>
+<ul id="wb-tphp">
+<li class="wb-slc">
+<a class="wb-sl" href="#wb-cont">Passer au contenu principal</a>
+</li>
+<li class="wb-slc">
+<a class="wb-sl" href="#wb-info">Passer à « À propos du gouvernement »</a>
+</li>
+</ul>
+</nav>
+<header>
+<div id="wb-bnr" class="container">
+<div class="row">
+<section id="wb-lng" class="col-xs-3 col-sm-12 pull-right text-right">
+<h2 class="wb-inv">Sélection de la langue</h2>
+<ul class="list-inline mrgn-bttm-0">
+<li>
+<a lang="en" hreflang="en" href="v6.1-en.html">
+<span class="hidden-xs">English</span>
+<abbr title="English" class="visible-xs h3 mrgn-tp-sm mrgn-bttm-0 text-uppercase">en</abbr>
+</a>
+</li>
+</ul>
+</section>
+<div class="brand col-xs-9 col-sm-5 col-md-4" property="publisher" resource="#wb-publisher" typeof="GovernmentOrganization">
+<a href="https://www.canada.ca/fr.html" property="url"><img src="../themes-dist-14.4.0-gcweb/GCWeb/assets/sig-blk-fr.svg" alt="Gouvernement du Canada" property="logo"><span class="wb-inv"> / <span lang="en">Government of Canada</span></span></a>
+<meta property="name" content="Gouvernement du Canada">
+<meta property="areaServed" typeof="Country" content="Canada">
+<link property="logo" href="../themes-dist-14.4.0-gcweb/GCWeb/assets/wmms-blk.svg">
+</div>
+<section id="wb-srch" class="col-lg-offset-4 col-md-offset-4 col-sm-offset-2 col-xs-12 col-sm-5 col-md-4">
+<h2>Recherche</h2>
+<form action="#" method="post" name="cse-search-box" role="search">
+<div class="form-group wb-srch-qry">
+<label for="wb-srch-q" class="wb-inv">Recherchez sur Canada.ca</label>
+<input id="wb-srch-q" list="wb-srch-q-ac" class="wb-srch-q form-control" name="q" type="search" value="" size="34" maxlength="170" placeholder="Recherchez sur Canada.ca">
+<datalist id="wb-srch-q-ac">
+</datalist>
+</div>
+<div class="form-group submit">
+<button type="submit" id="wb-srch-sub" class="btn btn-primary btn-small" name="wb-srch-sub"><span class="glyphicon-search glyphicon"></span><span class="wb-inv">Recherche</span></button>
+</div>
+</form>
+</section>
+</div>
+</div>
+<nav class="gcweb-menu" typeof="SiteNavigationElement">
+<div class="container">
+<h2 class="wb-inv">Menu</h2>
+<button type="button" aria-haspopup="true" aria-expanded="false"><span class="wb-inv">Menu principal </span>Menu <span class="expicon glyphicon glyphicon-chevron-down"></span></button>
+</div>
+</nav>
+</header>
+<main property="mainContentOfPage" resource="#wb-main" class="container" typeof="WebPageElement">
+<h1 property="name" id="wb-cont">notes de version</h1>
+<div class="row">
+<div class="col-md-7 col-lg-8">
+<p>auteur: Ashley</p>
+<ul>
+<li><strong>Date de lancement :</strong>
+<time>2024-02-06</time>
+</li>
+<li><strong>Compile avec :</strong> <a href="https://wet-boew.github.io/wet-boew/docs/versions/v4.0/v4.0.34-fr.html">WET-BOEW v4.0.34</a></li>
+</ul>
+</div>
+</div>
+<section>
+<h2>Recommandations pour l'accessibilité Web :</h2>
+<ul>
+    <li>Mettre en œuvre une navigation conviviale au clavier</li>
+    <li>Fournir du texte alternatif pour les images</li>
+    <li>Assurer un contraste de couleur suffisant</li>
+    <li>Créer un contenu multimédia accessible</li>
+    <li>Effectuer régulièrement des audits d'accessibilité</li>
+</ul>
+<section>
+<h3>1. Mettre en œuvre une navigation conviviale au clavier :</h3>
+<p>Assurez-vous que votre site Web peut être navigué uniquement à l'aide d'un clavier. Cela inclut la fourniture d'indicateurs visuels pour les éléments ciblés et la garantie que tous les éléments interactifs sont accessibles en utilisant la touche Tab. La navigation au clavier est essentielle pour les utilisateurs ayant des handicaps de mobilité.</p>
+</section>
+<section>
+    <h3>2. Fournir du texte alternatif pour les images :</h3>
+    <p>Incluez un texte alternatif descriptif pour toutes les images de votre site Web. Le texte alternatif doit transmettre le contenu et la fonction des images. Cette pratique est cruciale pour les utilisateurs de lecteurs d'écran et ceux ayant des déficiences visuelles, car elle fournit une alternative textuelle à l'information visuelle.</p>
+    </section>
+    <section>
+        <h3>3. Assurer un contraste de couleur suffisant :</h3>
+        <p>Concevez votre site Web avec un contraste de couleur élevé entre l'arrière-plan et le texte pour améliorer la lisibilité. Les utilisateurs ayant des déficiences visuelles, y compris la daltonisme, bénéficient de distinctions claires entre le texte et son arrière-plan.</p>
+        </section>
+        <section>
+            <h3>4. Créer un contenu multimédia accessible :</h3>
+            <p>Pour le contenu multimédia tel que les vidéos, fournissez des sous-titres et des transcriptions. Pour le contenu audio, assurez-vous qu'une transcription textuelle est disponible. Cela rend votre contenu accessible aux utilisateurs ayant des déficiences auditives et à ceux qui préfèrent le contenu textuel.</p>
+            </section>
+            <section>
+                <h3>5. Effectuer régulièrement des audits d'accessibilité :</h3>
+                <p>Examinez régulièrement votre site Web à l'aide d'outils d'évaluation de l'accessibilité et impliquez les utilisateurs handicapés dans les tests utilisateurs. Cette pratique aide à identifier et à résoudre les obstacles à l'accessibilité, garantissant que votre site Web est utilisable et inclusif pour un public diversifié.</p>
+                </section>
+
+
+
+
+
+
+
+
+
+			</main>
+			<footer id="wb-info">
+			<div class="landscape">
+			<nav class="container wb-navcurr">
+			<h2 class="wb-inv">À propos du gouvernement</h2>
+			<ul class="list-unstyled colcount-sm-2 colcount-md-3">
+			<li><a href="https://www.canada.ca/fr/contact.html">Nous contacter</a></li>
+			<li><a href="https://www.canada.ca/fr/gouvernement/min.html">Ministères et organismes</a></li>
+			<li><a href="https://www.canada.ca/fr/gouvernement/fonctionpublique.html">Fonction publique et force militaire</a></li>
+			<li><a href="https://www.canada.ca/fr/nouvelles.html">Nouvelles</a></li>
+			<li><a href="https://www.canada.ca/fr/gouvernement/systeme/lois.html">Traités, lois et règlements</a></li>
+			<li><a href="https://www.canada.ca/fr/transparence/rapports.html">Rapports à l'échelle du gouvernement</a></li>
+			<li><a href="https://pm.gc.ca/fra">Premier ministre</a></li>
+			<li><a href="https://www.canada.ca/fr/gouvernement/systeme.html">Comment le gouvernement fonctionne</a></li>
+			<li><a href="https://ouvert.canada.ca/fr">Gouvernement ouvert</a></li>
+			</ul>
+			</nav>
+			</div>
+			<div class="brand">
+			<div class="container">
+			<div class="row">
+			<nav class="col-md-9 col-lg-10 ftr-urlt-lnk">
+			<h2 class="wb-inv">À propos de ce site</h2>
+			<ul>
+			<li><a href="https://www.canada.ca/fr/sociaux.html">Médias sociaux</a></li>
+			<li><a href="https://www.canada.ca/fr/applications-mobiles.html">Applications mobiles</a></li>
+			<li><a href="https://www1.canada.ca/fr/nouveausite.html">À propos de Canada.ca</a></li>
+			<li><a href="https://www.canada.ca/fr/transparence/avis.html">Avis</a></li>
+			<li><a href="https://www.canada.ca/fr/transparence/confidentialite.html">Confidentialité</a></li>
+			</ul>
+			</nav>
+			<div class="col-xs-6 visible-sm visible-xs tofpg">
+			<a href="#wb-cont">Haut de la page <span class="glyphicon glyphicon-chevron-up"></span></a>
+			</div>
+			<div class="col-xs-6 col-md-3 col-lg-2 text-right">
+			<img src="../themes-dist-14.4.0-gcweb/GCWeb/assets/wmms-blk.svg" alt="Symbole du gouvernement du Canada">
+			</div>
+			</div>
+			</div>
+			</div>
+			</footer>
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.js"></script>
+			<script src="../themes-dist-14.4.0-gcweb/wet-boew/js/wet-boew.min.js"></script>
+			<script src="../themes-dist-14.4.0-gcweb/GCWeb/js/theme.min.js"></script>
+			</body>
+			</html>
